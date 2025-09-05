@@ -2,9 +2,9 @@ import React from "react";
 
 function NewsletterBox() {
 
-    const onSubmitHandler = (event)=>{
-        event.preventDefault();
-    }
+  const onSubmitHandler = (event) => {
+    event.preventDefault();
+  }
 
   return (
     <div className="text-center">
@@ -16,9 +16,8 @@ function NewsletterBox() {
         nemo temporibus doloremque fugiat nam accusantium.
       </p>
       <form
-      onSubmit={onSubmitHandler}
+        onSubmit={onSubmitHandler}
         className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3"
-        action=""
       >
         <input
           type="email"
