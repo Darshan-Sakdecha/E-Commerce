@@ -36,7 +36,7 @@ function About() {
           <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium esse temporibus quos consectetur architecto minima vero nesciunt ex aut consequatur obcaecati, qui modi impedit autem nobis.</p>
         </div>
       </div>
-      <NewsletterBox/>
+      <NewsletterBox />
     </div>
   )
 }
